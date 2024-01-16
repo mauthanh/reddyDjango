@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load static %}
+    <head>
+        <title>First template</title>
+    </head>
+    <body>
+        <ol> Employee information
+            <li>ID: {{ id }}</li>
+            <li>Name: {{ name }}</li>
+            <li>Salary: {{ sal }}</li>
+        </ol>
+        <img src="{% static 'images/logo BM.jpg' %}" alt="logo">
+    </body>
