@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('firstapp/', include('firstApp.urls')),
     path('quoteapp/', include('quoteApp.urls')),
-    path('templateapp/', include('templates_app.urls'))
+    path('templateapp/', include('templates_app.urls')),
+    path('product_app/', include('product_app.urls'))
 ]

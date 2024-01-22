@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+ul, li {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}

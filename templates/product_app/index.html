@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product App</title>
+    <link rel="stylesheet" href="{% static 'css/product_css.css' %}">
+</head>
+<body>
+    <img src="{% static 'images/logo BM.jpg' %}" alt="logo">
+    <h1>Welcome to E-commerce store</h1>
+    <ul>
+        <li>
+            <a href="/product_app/electronics">Electronics</a>
+        </li>
+        <li>
+            <a href="/product_app/shoes">Shoes</a>
+        </li>
+        <li>
+            <a href="/product_app/toys">Toys</a>
+        </li>
+    </ul>
+</body>
+</html>
